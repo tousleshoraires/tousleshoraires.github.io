@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home mb-3">
 
   {{ content }}
 
@@ -16,7 +16,7 @@ layout: default
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <a href="{{ "projets/edition-horaires-commerces/" | relative_url }}" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
@@ -27,6 +27,20 @@ layout: default
                 <div class="portfolio-caption">
                     <h4>Horaires-Commerces.fr</h4>
                     <p class="text-muted">Portail des horaires d'ouverture des commerces français</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="{{ "projets/edition-openornot/" | relative_url }}" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="/assets/img/portfolio/openornot.jpg" class="img-responsive" alt="openornot.com">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>openornot.com</h4>
+                    <p class="text-muted">Annuaire international des horaires d'ouverture</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -91,6 +105,15 @@ layout: default
   </ul>
   -->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+    <div class="card text-white bg-info">
+        <div class="card-body">
+            <h4 class="card-title">Parole d'expert</h4>
+            <p>«Le web-to-store est un concept relativement récent qui permet aux commerçants de s'appuyer sur la puissance d'Internet pour se faire connaître et augmenter leur trafic en boutique.»</p>
+
+            <p>«Il désigne le comportement d'achat au cours duquel le consommateur recherche de l'information sur la toile avant de se rendre en boutique pour faire son achat.»</p>
+        </div>
+    </div>
 
 </div>
