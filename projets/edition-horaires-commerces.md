@@ -18,3 +18,7 @@ Mais surtout, Horaires-Commerces.fr propose aussi de l'actualité autour des mag
 
 ## Evolution de l'ordinateur au mobile
 Aujourd'hui, plus de 40% des consultations se font depuis un support mobile comme un smartphone ou une tablette. Il est donc indispensable pour Horaires-Commerces.fr d'être disponible à tout moment. Le service n'est donc plus un site mais il est également une application disponible iPhone et Android.
+
+<div class="text-center">
+    <a href="https://www.horaires-commerces.fr" target="_blank" class="btn btn-primary">consulter horaires-commerces.fr</a>
+</div>
