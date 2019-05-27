@@ -1,11 +1,12 @@
 # Website settings
 title: TLH
 author: GitHub User
-email: support@tousleshoraires.fr
+email: contact@tousleshoraires.fr
 description: "Notre agence de développements et d'édition de site Internet publie des articles sur ses différents projets, son utilisation de Silex, Symfony, Travis CI..."
 meta_title: TLH, agence de développements et d'édition de site Internet
 url: "https://tousleshoraires.com"
 baseurl: ""
+google_analytics: "UA-172023-27"
 
 # Social network account
 twitter_username: tousleshoraires
@@ -18,4 +19,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 permalink: pretty
-
+sass:
+    sass_dir: _sass
+    style: compressed

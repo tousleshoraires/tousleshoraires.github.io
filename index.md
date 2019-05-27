@@ -5,4 +5,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+meta_title: TLH, agence de développements et d'édition de site Internet
 ---
